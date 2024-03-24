@@ -34,3 +34,15 @@
 * Static PAT
 * Dynamic NAT
 * Dynamic PAT
+
+# Source NAT
+* Source IP address is modified
+* Modifies source private IP address with source public IP address in the packet's header
+* For example when client sending a request to a server
+* It allows multiple hosts in the "inside" network to access any host in the "outside" network
+
+# Destination NAT
+* Destination IP address is modified
+* Modifies destination public IP address with destination private IP address
+* For example when client receives a response from a server
+* It allows any host on the "outside" network to get access to a single host on the "inside" network
