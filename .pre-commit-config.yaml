@@ -1,0 +1,29 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    -   id: trailing-whitespace
+        description: Removes trailing white spaces
+    -   id: end-of-file-fixer
+        description: Adds an empty line if not present
+    -   id: check-yaml
+    -   id: check-added-large-files
+        description: Prevents giant files from being committed
+-   repo: https://github.com/crate-ci/typos
+    rev: v1.31.1
+    hooks:
+    -   id: typos
+        description: Corrects spelling mistakes
+-   repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.5
+    hooks:
+    -   id: remove-tabs
+        description: Replaces tabs with spaces
+-   repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.17.2
+    hooks:
+    -   id: markdownlint-cli2
+        description: Checks if any style issues
