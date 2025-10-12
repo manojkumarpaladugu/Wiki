@@ -18,11 +18,11 @@ Important Links:
 
 ## MCTP Topology
 
-![Figure 3 - MCTP Topology](images/figure-3_mctp.png)
+![Figure 3 - MCTP Topology](assets/figure-3_mctp.png)
 
 ## MCTP Packet Fields
 
-![Figure 4 - MCTP Fields](images/figure-4_mctp.png)
+![Figure 4 - MCTP Fields](assets/figure-4_mctp.png)
 
 | Field Name | Field Size | Description |
 |---|---|---|
